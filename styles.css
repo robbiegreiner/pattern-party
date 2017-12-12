@@ -1,7 +1,11 @@
 body {
-  margin-left: 20%;
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 150px;
 }
 
 .tab-container {
@@ -20,7 +24,7 @@ body {
   cursor: default;
 }
 
-.tab-1 {
+.active-tab {
   background-color: #FFFFFF;
   font-weight: 600;
   border-left: 1px solid black;
@@ -29,17 +33,24 @@ body {
   border-bottom: 0;
 }
 
-.tab-4 {
-  border-right: 0;
+span:nth-child(1) {
+  display: none;
 }
 
 .main-container {
-  display: flex;
   box-sizing: border-box;
   width: 80%;
   border-left: 1px solid black;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
+}
+
+.tab-content {
+    display: flex;
+}
+
+.tab-content-2, .tab-content-3, .tab-content-4 {
+  display: none;
 }
 
 img {
@@ -48,6 +59,7 @@ img {
   margin-top: 15px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .text-container {

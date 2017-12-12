@@ -2,36 +2,74 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Pattern Party</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
+    <header>
+      <h1>PATTERN <span class="party">PARTY</span></h1>
+    </header>
     <div class="tab-container">
-      <div class="tab tab-1">
-        Tab 1
+      <div class="tab tab-1 active-tab" data-tab="tab1">
+        Tab 1<span>+</span>
       </div>
-      <div class="tab tab-2">
-        Tab 2
+      <div class="tab tab-2 inactive-tab" data-tab="tab2">
+        Tab 2<span>+</span>
       </div>
-      <div class="tab tab-3">
-        Tab 3
+      <div class="tab tab-3 inactive-tab" data-tab="tab3">
+        Tab 3<span>+</span>
       </div>
-      <div class="tab tab-4">
-        Tab 4
+      <div class="tab tab-4 inactive-tab" data-tab="tab4">
+        Tab 4<span>+</span>
       </div>
     </div>
     <div class="main-container">
-      <img src="./hispter.jpg" alt="">
-      <div class="text-container">
-        <h4>Hipsters Make Me Feel Uncomfortable</h6>
-        <p class="paragraph-1">Kale chips organic put a bird on it shaman. Hexagon +1 lo-fi blue bottle chicharrones affogato palo santo normcore YOLO cray adaptogen farm-to-table VHS. Synth artisan heirloom, migas fixie bicycle rights health goth. Enamel pin hella mumblecore pabst art party. Scenester hella YOLO..</p>
 
-        <p class="paragraph-1">Microdosing bespoke iPhone, XOXO fashion axe williamsburg messenger bag slow-carb neutra keffiyeh raclette. Iceland godard sriracha ethical sustainable migas, hot chicken prism everyday carry. Schlitz microdosing chartreuse, humblebrag copper mug succulents.</p>
+      <div class="tab-content tab-content-1" id="tab1">
+        <img src="./hispter.jpg" alt="">
+        <div class="text-container">
+          <h4>Hipsters Scare Me</h4>
+          <p class="paragraph-1">Kale chips organic put a bird on it shaman. Hexagon +1 lo-fi blue bottle chicharrones affogato palo santo normcore YOLO cray adaptogen farm-to-table VHS. Synth artisan heirloom, migas fixie bicycle rights health goth. Enamel pin hella mumblecore pabst art party. Scenester hella YOLO..</p>
+
+          <p class="paragraph-1">Microdosing bespoke iPhone, XOXO fashion axe williamsburg messenger bag slow-carb neutra keffiyeh raclette. Iceland godard sriracha ethical sustainable migas, hot chicken prism everyday carry. Schlitz microdosing chartreuse, humblebrag copper mug succulents.</p>
+        </div>
       </div>
 
+      <div class="tab-content tab-content-2" id="tab2">
+        <img src="./hipster2.jpg" alt="">
+        <div class="text-container">
+          <h4>Y SO MUCH FACIAL HAIR?</h4>
+          <p class="paragraph-1">PBRB mumblecore edison bulb pinterest hell of sustainable plaid pug salvia dreamcatcher chicharrones. Tofu pickled yuccie, umami iceland shoreditch microdosing af salvia single-origin coffee ethical vaporware celiac meditation gastropub. Unicorn prism shabby chic vape, pop-up normcore shoreditch four loko copper mug typewriter. Lomo squid cronut sartorial ugh, raw denim poutine offal viral pug 90's schlitz slow-carb. </p>
+
+          <p class="paragraph-1">Church-key hammock synth put a bird on it everyday carry kombucha art party actually pok pok cronut iceland cornhole waistcoat shaman tacos.</p>
+        </div>
+      </div>
+
+      <div class="tab-content tab-content-3" id="tab3">
+        <img src="./hipster4.jpg" alt="">
+        <div class="text-container">
+          <h4>Go back to Brooklyn!</h4>
+          <p class="paragraph-1">Freegan tacos truffaut fixie banjo you probably haven't heard of them. Direct trade sustainable hammock, cloud bread distillery coloring book la croix squid chillwave williamsburg before they sold out. Venmo VHS keytar, small batch fam chia tote bag sartorial sustainable messenger bag cliche. Brooklyn butcher forage pour-over, iceland keffiyeh prism semiotics swag blog.</p>
+
+          <p class="paragraph-1">Distillery hexagon thundercats, tumblr put a bird on it seitan bushwick woke williamsburg pickled wolf helvetica. Mixtape plaid cornhole authentic 8-bit, aesthetic subway tile fanny pack. </p>
+        </div>
+      </div>
+
+      <div class="tab-content tab-content-4" id="tab4">
+        <img src="./hipster6.jpg" alt="">
+        <div class="text-container">
+          <h4>JK I LUVE HIPSTERS AND WANNA BE ONE</h4>
+          <p class="paragraph-1">Hoodie normcore prism, four dollar toast man bun YOLO cloud bread tilde. Air plant selvage skateboard put a bird on it you probably haven't heard of them street art listicle messenger bag health goth mlkshk, pour-over raclette humblebrag pop-up salvia. Cornhole scenester cred intelligentsia bushwick mixtape kale chips wolf craft beer crucifix chillwave taxidermy live-edge. </p>
+
+          <p class="paragraph-1">Wayfarers heirloom bicycle rights offal, pinterest cliche thundercats marfa tbh hashtag church-key single-origin coffee. Flexitarian fashion axe try-hard asymmetrical man braid.</p>
+        </div>
+      </div>
 
     </div>
+    <script src="./scripts.js">
 
+    </script>
   </body>
 </html>
