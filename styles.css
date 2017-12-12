@@ -1,6 +1,7 @@
 body {
   margin-left: 20%;
   font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
 }
 
 .tab-container {
@@ -8,14 +9,19 @@ body {
 }
 
 .tab {
+  padding: 5px;
+  font-size: 12px;
+  box-sizing: border-box;
   width: 20%;
   text-align: center;
-  background-color: #D1D2D3;
+  background-color: #F2F2F2;
   border-bottom: 1px solid black;
+  border-right: 1px solid white;
+  cursor: default;
 }
 
 .tab-1 {
-  background-color: #F2F2F2;
+  background-color: #FFFFFF;
   font-weight: 600;
   border-left: 1px solid black;
   border-top: 1px solid black;
@@ -23,11 +29,30 @@ body {
   border-bottom: 0;
 }
 
+.tab-4 {
+  border-right: 0;
+}
+
 .main-container {
+  display: flex;
+  box-sizing: border-box;
   width: 80%;
   border-left: 1px solid black;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
+}
+
+img {
+  width: 200px;
+  height: 280px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
 }
 
 h4 {
