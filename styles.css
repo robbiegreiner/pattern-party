@@ -1,0 +1,39 @@
+body {
+  margin-left: 20%;
+}
+
+.tab-container {
+  display: flex;
+}
+
+.tab {
+  width: 20%;
+  text-align: center;
+  background-color: #D1D2D3;
+  border-bottom: 1px solid black;
+}
+
+.tab-1 {
+  background-color: #F2F2F2;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 0;
+}
+
+.main-container {
+  width: 80%;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.paragraph-1 {
+  padding: 20px;
+  margin-top: 0px;
+}
+
+.paragraph-2 {
+  margin-top: 0px;
+  padding: 20px;
+}
