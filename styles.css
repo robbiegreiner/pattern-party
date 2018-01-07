@@ -86,6 +86,7 @@ img {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
+  border: 1px solid #F2F2F2;
 }
 
 .text-container {
@@ -118,4 +119,107 @@ h4 {
   margin-bottom: 50px;
   color: #F2F2F2;
   text-decoration: none;
+}
+
+.flex-card-container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-card {
+  box-sizing: border-box;
+  height: 200px;
+  background-color: #F2F2F2;
+  margin-bottom: 15px;
+  border: 1px solid black;
+}
+
+.f1 {
+  width: 66%;
+  margin-right: 2%;
+}
+
+.f2 {
+  width: 32%;
+}
+
+.f3 {
+  width: 32%;
+  margin-right: 2%;
+}
+
+.f4 {
+  width: 32%;
+  margin-right: 2%;
+}
+
+.f5 {
+  width: 32%
+}
+
+.f6 {
+  width: 32%;
+  margin-right: 2%;
+}
+
+.f7 {
+  width: 66%;
+}
+
+.card-header {
+  width: 100%;
+  background-color: white;
+  height: 40px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.card-head-text {
+  font-size: 12px;
+  margin-left: 5%;
+}
+
+.header-bar {
+  background-color: #D1D2D3;
+  width: 80%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.circle {
+  margin-left: 5%;
+  width: 10%;
+}
+
+.the-circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.nav-1, .nav-2, .nav-3, .search {
+  width: 20%;
+}
+
+.search {
+  display: flex;
+  margin-right: 5%;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: #F2F2F2;
+}
+
+.search-img {
+  width: 10px;
+  height: 10px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  margin-right: 10px;
 }
